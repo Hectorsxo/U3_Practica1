@@ -2,12 +2,6 @@ package com.ieschabas;
 
 public class NumerosImpares {
 
-    /**
-     * Calcula el producto de los 10 primeros números impares: 1 * 3 * 5 * ... * 19
-     * El resultado esperado es 654729075.
-     *
-     * @return el producto de los 10 primeros números impares como un valor long
-     */
     public static long productoDiezPrimerosImpares() {
         long producto = 1;
         int contador = 0;
