@@ -45,7 +45,7 @@ public class MayoresAleatorios4 {
             repeticiones = scanner.nextInt();
 
             if (repeticiones <= 0) {
-                System.out.println("Las repeticiones no pueden ser un número negativo");
+                System.out.println("Las repeticiones no pueden ser un negativo");
             }
         } while (repeticiones <= 0);
 
