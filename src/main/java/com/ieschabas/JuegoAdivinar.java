@@ -26,7 +26,7 @@ public class JuegoAdivinar {
                 System.out.println("El número es menor. Has realizado " + numIntento + " intentos");
             }
         }
-        return -1; // No se adivinó el número
+        return -1;
     }
 
     // Método main para probar la funcionalidad
