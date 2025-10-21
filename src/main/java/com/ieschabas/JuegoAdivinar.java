@@ -12,13 +12,6 @@ public class JuegoAdivinar {
         }
     }
 
-    /**
-     * Juega el juego de adivinar el número usando un array de intentos.
-     *
-     * @param secreto   el número que debe adivinarse
-     * @param intentos  array con los intentos del usuario
-     * @return número de intentos hasta acertar, o -1 si no se acierta
-     */
     public static int jugar(int secreto, int[] intentos) {
         for (int i = 0; i < intentos.length; i++) {
             int intento = intentos[i];
