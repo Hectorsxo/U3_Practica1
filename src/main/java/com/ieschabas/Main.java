@@ -1,16 +1,33 @@
 package com.ieschabas;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Clase Main por defecto generada por IntelliJ IDEA.
+ *
+ * Esta clase no se utiliza en el proyecto y solo sirve como plantilla por defecto.
+ * Contiene un método main que imprime un mensaje de bienvenida y un pequeño bucle de ejemplo.
+ *
+ * Autor: IntelliJ IDEA
+ * Versión: 1.0
+ */
 public class Main {
+
+    /**
+     * Constructor por defecto de Main.
+     */
+    public Main(){
+
+    }
+
+    /**
+     * Método principal de la clase de ejemplo.
+     * Imprime un mensaje de bienvenida y un bucle de ejemplo del 1 al 5.
+     *
+     * @param args Argumentos de línea de comandos (no se utilizan).
+     */
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.printf("Hello and welcome!\n");
 
         for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
     }

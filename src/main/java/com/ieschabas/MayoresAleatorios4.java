@@ -4,25 +4,22 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Ejercicio 9: Programa que devuelve el mayor de cuatro números aleatorios entre 0 y 1000.
+ * Programa que calcula el mayor de cuatro números aleatorios entre 0 y 1000.
  *
- * Esta clase genera cuartetos de números aleatorios y determina el mayor de cada grupo.
- * El proceso se puede repetir varias veces según indique el usuario (por ejemplo, 20 repeticiones).
+ * Genera grupos de cuatro números aleatorios y determina el mayor de cada grupo.
+ * El proceso se repite tantas veces como indique el usuario.
  *
- * Métodos principales:
- *
- * max4(int a, int b, int c, int d)
- *  - Devuelve el mayor de los cuatro números proporcionados.
- *
- * generarMaximos4(int repeticiones, Random rng)
- *  - Genera un arreglo con los máximos de los cuartetos aleatorios.
- *  - Si repeticiones <= 0, muestra un mensaje indicando que no se permiten números negativos
- *    y solicita nuevamente la entrada.
- *
- * @author Héctor Crespo
- * @version 1.0
+ * Autor: Héctor Crespo
+ * Versión: 1.0
  */
 public class MayoresAleatorios4 {
+
+    /**
+     * Constructor por defecto de MayoresAleatorios4.
+     */
+    public MayoresAleatorios4(){
+
+    }
 
     /**
      * Devuelve el mayor de cuatro números enteros.
@@ -31,12 +28,12 @@ public class MayoresAleatorios4 {
      * @param b Segundo número.
      * @param c Tercer número.
      * @param d Cuarto número.
-     * @return El valor máximo entre a, b, c y d.
+     * @return El número mayor entre a, b, c y d.
      */
     public static int max4(int a, int b, int c, int d) {
-        int mayor = a; // Asumimos que el primero es el mayor inicialmente
+        int mayor = a; // Se asume que el primero es el mayor
 
-        // Comparamos sucesivamente con los otros tres números
+        // Compara con los demás números
         if (b > mayor) {
             mayor = b;
         }
@@ -51,19 +48,19 @@ public class MayoresAleatorios4 {
     }
 
     /**
-     * Genera un arreglo de enteros que contiene los máximos de varios
-     * cuartetos de números aleatorios comprendidos entre 0 y 1000.
+     * Genera un array que contiene los valores máximos de varios grupos
+     * de cuatro números aleatorios entre 0 y 1000.
      *
      * @param repeticiones Número de grupos (cuartetos) a generar.
-     * @param rng Instancia de Random usada para generar los números aleatorios.
-     * @return Un arreglo con los valores máximos de cada cuarteto.
+     * @param rng Objeto Random usado para generar los números aleatorios.
+     * @return Un array con los valores máximos de cada grupo.
      */
     public static int[] generarMaximos4(int repeticiones, Random rng) {
         int[] resultados = new int[repeticiones];
 
-        // Genera "repeticiones" grupos de 4 números aleatorios y guarda el mayor de cada uno
+        // Genera los grupos y calcula el máximo de cada uno
         for (int i = 0; i < repeticiones; i++) {
-            int a = rng.nextInt(1001); // Genera un número entre 0 y 1000 (inclusive)
+            int a = rng.nextInt(1001);
             int b = rng.nextInt(1001);
             int c = rng.nextInt(1001);
             int d = rng.nextInt(1001);
@@ -75,49 +72,44 @@ public class MayoresAleatorios4 {
     }
 
     /**
-     * Método principal que solicita al usuario un número de repeticiones,
-     * genera los máximos de cuartetos aleatorios y los muestra por consola.
+     * Método principal. Pide al usuario el número de repeticiones,
+     * genera los máximos de cada grupo aleatorio y los muestra por consola.
      *
-     * Según el enunciado del ejercicio, se deben generar 20 cuartetos.
-     *
-     * @param args Argumentos de línea de comandos (no utilizados en este programa).
+     * @param args Argumentos de línea de comandos (no se usan).
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
-
         int repeticiones;
 
-        // Solicitud y validación del número de repeticiones
+        // Solicita y valida el número de repeticiones
         do {
             System.out.print("Introduce el número de repeticiones (DEBEN SER 20 COMO INDICA EL ENUNCIADO): ");
 
-            // Verifica que la entrada sea un número entero
             while (!scanner.hasNextInt()) {
                 System.out.println("Entrada no válida. Por favor, introduce un número entero.");
-                scanner.next(); // Descarta la entrada inválida
+                scanner.next(); // Descarta la entrada no válida
             }
 
             repeticiones = scanner.nextInt();
 
-            // Comprueba que el número sea positivo
             if (repeticiones <= 0) {
-                System.out.println("Las repeticiones no pueden ser un número negativo.");
+                System.out.println("Las repeticiones deben ser un número positivo.");
             }
 
         } while (repeticiones <= 0);
 
-        // Generación de máximos
+        // Genera los valores máximos
         int[] maximos = generarMaximos4(repeticiones, rng);
 
-        // Salida de resultados
+        // Muestra los resultados
         System.out.println("\nMayores de cada cuarteto de números aleatorios (0–1000):");
         for (int valor : maximos) {
             System.out.println(valor);
         }
 
-        // Cierra el scanner para liberar recursos
-        scanner.close();
+        scanner.close(); // Cierra el Scanner
     }
 }
+
 

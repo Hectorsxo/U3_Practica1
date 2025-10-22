@@ -1,53 +1,52 @@
 package com.ieschabas;
 
 /**
- * Ejercicio 2: Programa que muestra el producto de los 10 primeros números impares.
+ * Programa que calcula el producto de los diez primeros números impares.
  *
- * Esta clase calcula el producto de los primeros diez números impares (1, 3, 5, ..., 19)
- * utilizando un bucle. El resultado final es 654729075.
+ * Multiplica los números 1, 3, 5, ..., 19 y muestra el resultado por consola.
+ * El resultado final es 654729075.
  *
- * Método principal:
- * public static long productoDiezPrimerosImpares()
- *
- * Devuelve el producto de los diez primeros números impares.
- *
- * @author Héctor Crespo
- * @version 1.0
+ * Autor: Héctor Crespo
+ * Versión: 1.0
  */
 public class NumerosImpares {
 
     /**
+     * Constructor por defecto de NumerosImpares.
+     */
+    public NumerosImpares(){
+
+    }
+
+    /**
      * Calcula el producto de los diez primeros números impares.
      *
-     * El proceso comienza en 1 (primer número impar) y continúa
-     * sumando 2 en cada iteración hasta completar los 10 primeros impares.
+     * Empieza en 1 y va sumando 2 en cada paso hasta completar los diez primeros impares.
      *
      * @return El producto de los diez primeros números impares.
      */
     public static long productoDiezPrimerosImpares() {
-        long producto = 1; // Acumula el resultado del producto
-        int contador = 0;  // Lleva la cuenta de los números impares multiplicados
+        long producto = 1; // Acumula el producto total
+        int contador = 0;  // Cuenta cuántos impares se han multiplicado
         int numero = 1;    // Primer número impar
 
-        // Repite el proceso hasta multiplicar los 10 primeros números impares
+        // Calcula el producto de los 10 primeros números impares
         while (contador < 10) {
             producto *= numero; // Multiplica el número actual
             numero += 2;        // Avanza al siguiente número impar
-            contador++;         // Incrementa el contador de impares procesados
+            contador++;         // Aumenta el contador
         }
 
         return producto;
     }
 
     /**
-     * Método principal para probar la funcionalidad del cálculo.
+     * Método principal. Muestra por consola el resultado
+     * del producto de los diez primeros números impares.
      *
-     * Imprime en consola el resultado del producto de los diez primeros números impares.
-     *
-     * @param args Argumentos de línea de comandos (no utilizados).
+     * @param args Argumentos de línea de comandos (no se usan).
      */
     public static void main(String[] args) {
-        System.out.println(productoDiezPrimerosImpares()); // Imprime: 654729075
+        System.out.println(productoDiezPrimerosImpares()); // Resultado esperado: 654729075
     }
 }
-
