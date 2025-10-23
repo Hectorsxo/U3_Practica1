@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4db841b-2a33-42eb-a7ec-2ae2c1d72206" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/ImprimirCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/ImprimirCaracteres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -34,12 +24,12 @@
     &quot;assignee&quot;: &quot;Hectorsxo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Hectorsxo/U3_Practica1.git&quot;,
-    &quot;accountId&quot;: &quot;49734d1d-eb9f-4fe2-a93c-3ccf0cc0533b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hectorsxo/U3_Practica1.git",
+    "accountId": "3c64ac10-3aea-410a-bf49-49fd90a7806f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -50,13 +40,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MenuVehiculos.executor": "Run",
     "Application.NumerosImpares.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hc556/Downloads/Practica1_UD3",
+    "last_opened_file_path": "C:/Users/heccrebui/IdeaProjects/Practica1_UD3",
     "settings.editor.selected.configurable": "reference.idesettings.quicklists"
   }
 }]]></component>

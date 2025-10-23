@@ -54,10 +54,9 @@ public class MenuVehiculos {
      * @param args Argumentos de línea de comandos (no se usan).
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int opcion; // Almacena la opción seleccionada por el usuario
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        int opcion;
 
-        // Bucle principal: se repite hasta que se elige la opción 4
         do {
             System.out.println("=== MENÚ DE MANTENIMIENTO DE VEHÍCULOS ===");
             System.out.println("1. Mantenimiento de clientes");
@@ -66,12 +65,9 @@ public class MenuVehiculos {
             System.out.println("4. Finalizar");
             System.out.print("Seleccione una opción: ");
 
-            opcion = scanner.nextInt(); // Lee la opción del usuario
-
-            // Muestra el mensaje asociado a la opción seleccionada
-            String resultado = seleccionarOpcion(opcion);
-            System.out.println(resultado);
-            System.out.println(); // Línea en blanco para legibilidad
+            opcion = scanner.nextInt();
+            System.out.println(seleccionarOpcion(opcion));
+            System.out.println();
 
         } while (opcion != 4);
 
