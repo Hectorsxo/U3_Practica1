@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4db841b-2a33-42eb-a7ec-2ae2c1d72206" name="Changes" comment="">
+    <list default="true" id="b4db841b-2a33-42eb-a7ec-2ae2c1d72206" name="Changes" comment="Javadoc actualizado.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +22,12 @@
     &quot;assignee&quot;: &quot;Hectorsxo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Hectorsxo/U3_Practica1.git",
-    "accountId": "3c64ac10-3aea-410a-bf49-49fd90a7806f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hectorsxo/U3_Practica1.git&quot;,
+    &quot;accountId&quot;: &quot;3c64ac10-3aea-410a-bf49-49fd90a7806f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -38,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MenuVehiculos.executor": "Run",
-    "Application.NumerosImpares.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/heccrebui/IdeaProjects/Practica1_UD3",
-    "settings.editor.selected.configurable": "reference.idesettings.quicklists"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuVehiculos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumerosImpares.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/heccrebui/IdeaProjects/Practica1_UD3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.quicklists&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b4db841b-2a33-42eb-a7ec-2ae2c1d72206" name="Changes" comment="" />
@@ -60,6 +58,23 @@
       <option name="presentableId" value="Default" />
       <updated>1761128388672</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solucionado un error en la clase MenuVehiculos que impedía la ejecución del programa.">
+      <option name="closed" value="true" />
+      <created>1761242228703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761242228703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Javadoc actualizado.">
+      <option name="closed" value="true" />
+      <created>1761242313224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761242313224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +87,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solucionado un error en la clase MenuVehiculos que impedía la ejecución del programa." />
+    <MESSAGE value="Javadoc actualizado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadoc actualizado." />
   </component>
 </project>
