@@ -6,10 +6,9 @@ import java.util.Scanner;
  * Programa que calcula el área y la longitud de una circunferencia.
  *
  * Permite al usuario introducir el radio de una circunferencia y calcula:
- * <ul>
- *   <li>Área = π · r²</li>
- *   <li>Longitud = 2 · π · r</li>
- * </ul>
+ *
+ * Área = π · r²
+ * Longitud = 2 · π · r
  *
  * Si el usuario introduce un valor negativo, se muestra un mensaje de error
  * y se solicita nuevamente la entrada.
