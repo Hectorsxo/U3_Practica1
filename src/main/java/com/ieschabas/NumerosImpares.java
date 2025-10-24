@@ -14,8 +14,7 @@ public class NumerosImpares {
     /**
      * Constructor por defecto de NumerosImpares.
      */
-    public NumerosImpares(){
-
+    public NumerosImpares() {
     }
 
     /**
@@ -25,7 +24,7 @@ public class NumerosImpares {
      *
      * @return El producto de los diez primeros números impares.
      */
-    public static long productoDiezPrimerosImpares() {
+    public long productoDiezPrimerosImpares() {
         long producto = 1; // Acumula el producto total
         int contador = 0;  // Cuenta cuántos impares se han multiplicado
         int numero = 1;    // Primer número impar
@@ -47,8 +46,7 @@ public class NumerosImpares {
      * @param args Argumentos de línea de comandos (no se usan).
      */
     /*public static void main(String[] args) {
-        System.out.println(productoDiezPrimerosImpares()); // Resultado esperado: 654729075
-
-
+        NumerosImpares numeros = new NumerosImpares(); // Crear un objeto
+        System.out.println(numeros.productoDiezPrimerosImpares()); // Llamar al método no estático
     }*/
 }

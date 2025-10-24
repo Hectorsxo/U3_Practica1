@@ -17,8 +17,7 @@ public class SumasAleatorias {
     /**
      * Constructor por defecto de SumasAleatorias.
      */
-    public SumasAleatorias(){
-
+    public SumasAleatorias() {
     }
 
     /**
@@ -27,7 +26,7 @@ public class SumasAleatorias {
      * @param rng Objeto de tipo Random utilizado para generar los números aleatorios.
      * @return La suma de dos números aleatorios entre 0 y 1000.
      */
-    public static int sumaDosAleatorios(Random rng) {
+    public int sumaDosAleatorios(Random rng) {
         int a = rng.nextInt(1001); // Primer número aleatorio
         int b = rng.nextInt(1001); // Segundo número aleatorio
         return a + b;              // Devuelve la suma
@@ -40,7 +39,7 @@ public class SumasAleatorias {
      * @param rng Objeto Random para generar los números aleatorios.
      * @return Un array con las sumas generadas.
      */
-    public static int[] generarSumas(int repeticiones, Random rng) {
+    public int[] generarSumas(int repeticiones, Random rng) {
         int[] resultados = new int[repeticiones];
 
         // Genera tantas sumas como indique el usuario
@@ -60,6 +59,7 @@ public class SumasAleatorias {
     /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
+        SumasAleatorias sumador = new SumasAleatorias(); // Crear objeto para usar métodos no estáticos
         int repeticiones;
 
         // Solicita y valida el número de repeticiones
@@ -81,8 +81,8 @@ public class SumasAleatorias {
 
         } while (repeticiones <= 0);
 
-        // Genera las sumas aleatorias
-        int[] sumas = generarSumas(repeticiones, rng);
+        // Genera las sumas aleatorias usando el objeto
+        int[] sumas = sumador.generarSumas(repeticiones, rng);
 
         // Muestra los resultados
         System.out.println("\nResultados de las " + repeticiones + " sumas aleatorias:");
@@ -91,7 +91,5 @@ public class SumasAleatorias {
         }
 
         scanner.close();
-
-
     }*/
 }

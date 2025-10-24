@@ -21,8 +21,7 @@ public class Circunferencia {
     /**
      * Constructor por defecto de Circunferencia.
      */
-    public Circunferencia(){
-
+    public Circunferencia() {
     }
 
     /**
@@ -32,7 +31,7 @@ public class Circunferencia {
      * @return Área de la circunferencia.
      * @throws IllegalArgumentException Si el radio es negativo.
      */
-    public static double area(double radio) {
+    public double area(double radio) {
         if (radio < 0) {
             throw new IllegalArgumentException("El radio no puede ser un número negativo");
         }
@@ -46,7 +45,7 @@ public class Circunferencia {
      * @return Longitud (perímetro) de la circunferencia.
      * @throws IllegalArgumentException Si el radio es negativo.
      */
-    public static double longitud(double radio) {
+    public double longitud(double radio) {
         if (radio < 0) {
             throw new IllegalArgumentException("El radio no puede ser un número negativo");
         }
@@ -61,6 +60,7 @@ public class Circunferencia {
      */
     /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Circunferencia circ = new Circunferencia(); // Crear un objeto para usar métodos no estáticos
         double radio;
 
         // Solicitud y validación de entrada
@@ -80,16 +80,14 @@ public class Circunferencia {
 
         } while (radio < 0);
 
-        // Cálculos
-        double area = area(radio);
-        double longitud = longitud(radio);
+        // Cálculos usando el objeto
+        double area = circ.area(radio);
+        double longitud = circ.longitud(radio);
 
         // Salida formateada
         System.out.printf("Área: %.2f%n", area);
         System.out.printf("Longitud: %.2f%n", longitud);
 
         scanner.close();
-
-
     }*/
 }

@@ -19,9 +19,9 @@ public class AleatoriosPar {
     /**
      * Constructor por defecto de AleatoriosPar.
      */
-    public AleatoriosPar(){
-
+    public AleatoriosPar() {
     }
+
     /**
      * Genera un número par aleatorio menor que el límite especificado.
      *
@@ -31,8 +31,7 @@ public class AleatoriosPar {
      * @return Un número par aleatorio menor que el límite.
      * @throws IllegalArgumentException Si el límite es menor o igual que 0.
      */
-
-    public static int parAleatorioMenorQue(int limite, Random rng) {
+    public int parAleatorioMenorQue(int limite, Random rng) {
         if (limite <= 0) {
             throw new IllegalArgumentException("El límite debe ser mayor que 0.");
         }
@@ -60,6 +59,7 @@ public class AleatoriosPar {
     /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
+        AleatoriosPar generador = new AleatoriosPar(); // Crear objeto para usar método no estático
         int limite;
 
         // Solicita un límite válido
@@ -80,11 +80,9 @@ public class AleatoriosPar {
         } while (limite <= 0);
 
         // Generación y salida del resultado
-        int parAleatorio = parAleatorioMenorQue(limite, rng);
+        int parAleatorio = generador.parAleatorioMenorQue(limite, rng);
         System.out.println("Número par aleatorio generado: " + parAleatorio);
 
         scanner.close();
-
-
     }*/
 }

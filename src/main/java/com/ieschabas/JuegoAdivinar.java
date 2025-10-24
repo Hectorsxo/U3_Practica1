@@ -15,8 +15,7 @@ public class JuegoAdivinar {
     /**
      * Constructor por defecto de JuegoAdivinar.
      */
-    public JuegoAdivinar(){
-
+    public JuegoAdivinar() {
     }
 
     /**
@@ -27,7 +26,7 @@ public class JuegoAdivinar {
      * @param secreto Número que el jugador debe adivinar.
      * @param intento Número introducido por el jugador en un intento.
      */
-    public static void evaluarIntento(int secreto, int intento) {
+    public void evaluarIntento(int secreto, int intento) {
         if (intento < secreto) {
             System.out.println("El número es mayor.");
         } else if (intento > secreto) {
@@ -47,7 +46,7 @@ public class JuegoAdivinar {
      * @param intentos Array con los números introducidos por el jugador.
      * @return Número de intentos necesarios para acertar, o -1 si no se acierta.
      */
-    public static int jugar(int secreto, int[] intentos) {
+    public int jugar(int secreto, int[] intentos) {
         for (int i = 0; i < intentos.length; i++) {
             int intento = intentos[i];
             int numIntento = i + 1; // Contador de intentos (comienza en 1)
@@ -75,10 +74,11 @@ public class JuegoAdivinar {
         int numeroSecreto = 27; // Número que el jugador debe adivinar
         int[] misIntentos = {10, 50, 20, 30, 27}; // Intentos de ejemplo
 
-        int resultado = jugar(numeroSecreto, misIntentos);
+        // Crear un objeto de la clase JuegoAdivinar para usar sus métodos no estáticos
+        JuegoAdivinar juego = new JuegoAdivinar();
+
+        int resultado = juego.jugar(numeroSecreto, misIntentos);
 
         System.out.println("Número de intentos hasta acertar: " + resultado);
-
-
     }*/
 }

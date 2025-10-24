@@ -17,8 +17,7 @@ public class MayoresAleatorios3 {
     /**
      * Constructor por defecto de MayoresAleatorios3.
      */
-    public MayoresAleatorios3(){
-
+    public MayoresAleatorios3() {
     }
 
     /**
@@ -29,7 +28,7 @@ public class MayoresAleatorios3 {
      * @param c Tercer número.
      * @return El número mayor entre a, b y c.
      */
-    public static int max3(int a, int b, int c) {
+    public int max3(int a, int b, int c) {
         int mayor = a; // Se asume que el primero es el mayor
 
         if (b > mayor) {
@@ -50,7 +49,7 @@ public class MayoresAleatorios3 {
      * @param rng Objeto Random usado para generar los números aleatorios.
      * @return Un array con los valores máximos de cada trío.
      */
-    public static int[] generarMaximos3(int repeticiones, Random rng) {
+    public int[] generarMaximos3(int repeticiones, Random rng) {
         int[] resultados = new int[repeticiones];
 
         // Genera los tríos y calcula el máximo de cada uno
@@ -74,6 +73,7 @@ public class MayoresAleatorios3 {
     /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
+        MayoresAleatorios3 comparador = new MayoresAleatorios3(); // Crear objeto para usar métodos no estáticos
         int repeticiones;
 
         // Solicita y valida el número de repeticiones
@@ -93,8 +93,8 @@ public class MayoresAleatorios3 {
 
         } while (repeticiones <= 0);
 
-        // Genera los valores máximos
-        int[] maximos = generarMaximos3(repeticiones, rng);
+        // Genera los valores máximos usando el objeto
+        int[] maximos = comparador.generarMaximos3(repeticiones, rng);
 
         // Muestra los resultados
         System.out.println("\nMayores de cada uno de los " + repeticiones +
@@ -104,7 +104,5 @@ public class MayoresAleatorios3 {
         }
 
         scanner.close(); // Cierra el Scanner
-
-
     }*/
 }

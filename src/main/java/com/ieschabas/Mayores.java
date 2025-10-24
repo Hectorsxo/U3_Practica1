@@ -15,8 +15,7 @@ public class Mayores {
     /**
      * Constructor por defecto de Mayores.
      */
-    public Mayores(){
-
+    public Mayores() {
     }
 
     /**
@@ -26,7 +25,7 @@ public class Mayores {
      * @param b Segundo número.
      * @return El número mayor entre a y b.
      */
-    public static int max2(int a, int b) {
+    public int max2(int a, int b) {
         if (a > b) {
             return a;
         } else {
@@ -40,8 +39,9 @@ public class Mayores {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-   /* public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Mayores comparador = new Mayores(); // Crear objeto para usar método no estático
 
         System.out.print("Introduce el primer número: ");
         int num1 = scanner.nextInt();
@@ -49,7 +49,7 @@ public class Mayores {
         System.out.print("Introduce el segundo número: ");
         int num2 = scanner.nextInt();
 
-        int mayor = max2(num1, num2);
+        int mayor = comparador.max2(num1, num2); // Llamada al método no estático
 
         System.out.println("El mayor de " + num1 + " y " + num2 + " es: " + mayor);
 

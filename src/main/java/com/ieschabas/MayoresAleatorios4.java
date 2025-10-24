@@ -17,8 +17,7 @@ public class MayoresAleatorios4 {
     /**
      * Constructor por defecto de MayoresAleatorios4.
      */
-    public MayoresAleatorios4(){
-
+    public MayoresAleatorios4() {
     }
 
     /**
@@ -30,7 +29,7 @@ public class MayoresAleatorios4 {
      * @param d Cuarto número.
      * @return El número mayor entre a, b, c y d.
      */
-    public static int max4(int a, int b, int c, int d) {
+    public int max4(int a, int b, int c, int d) {
         int mayor = a; // Se asume que el primero es el mayor
 
         // Compara con los demás números
@@ -55,7 +54,7 @@ public class MayoresAleatorios4 {
      * @param rng Objeto Random usado para generar los números aleatorios.
      * @return Un array con los valores máximos de cada grupo.
      */
-    public static int[] generarMaximos4(int repeticiones, Random rng) {
+    public int[] generarMaximos4(int repeticiones, Random rng) {
         int[] resultados = new int[repeticiones];
 
         // Genera los grupos y calcula el máximo de cada uno
@@ -80,6 +79,7 @@ public class MayoresAleatorios4 {
     /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
+        MayoresAleatorios4 comparador = new MayoresAleatorios4(); // Crear objeto para usar los métodos no estáticos
         int repeticiones;
 
         // Solicita y valida el número de repeticiones
@@ -99,8 +99,8 @@ public class MayoresAleatorios4 {
 
         } while (repeticiones <= 0);
 
-        // Genera los valores máximos
-        int[] maximos = generarMaximos4(repeticiones, rng);
+        // Genera los valores máximos usando el objeto
+        int[] maximos = comparador.generarMaximos4(repeticiones, rng);
 
         // Muestra los resultados
         System.out.println("\nMayores de cada cuarteto de números aleatorios (0–1000):");
@@ -109,9 +109,5 @@ public class MayoresAleatorios4 {
         }
 
         scanner.close(); // Cierra el Scanner
-
-
     }*/
 }
-
-
