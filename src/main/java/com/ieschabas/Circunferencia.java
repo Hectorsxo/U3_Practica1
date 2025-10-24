@@ -59,7 +59,7 @@ public class Circunferencia {
      *
      * @param args Argumentos de línea de comandos (no se utilizan).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double radio;
 
@@ -89,5 +89,7 @@ public class Circunferencia {
         System.out.printf("Longitud: %.2f%n", longitud);
 
         scanner.close();
-    }
+
+
+    }*/
 }

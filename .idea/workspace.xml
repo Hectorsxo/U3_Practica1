@@ -4,51 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="final commit (1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/AleatoriosPar.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/AleatoriosPar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Circunferencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/Circunferencia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/JuegoAdivinar.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/JuegoAdivinar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Mayores.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/Mayores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MenuVehiculos.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/MenuVehiculos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/NumerosImpares.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/NumerosImpares.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/SumasAleatorias.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/SumasAleatorias.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/com/ieschabas/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/resource-files/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/resource-files/link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/resource-files/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-files/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-files/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-files/search-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script-files/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MenuVehiculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +63,15 @@
       <option name="presentableId" value="Default" />
       <updated>1761243299892</updated>
     </task>
+    <task id="LOCAL-00001" summary="final commit (1)">
+      <option name="closed" value="true" />
+      <created>1761313832726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761313832726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final commit (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit (1)" />
   </component>
 </project>

@@ -40,7 +40,7 @@ public class Mayores {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Introduce el primer número: ");
@@ -54,5 +54,5 @@ public class Mayores {
         System.out.println("El mayor de " + num1 + " y " + num2 + " es: " + mayor);
 
         scanner.close();
-    }
+    }*/
 }

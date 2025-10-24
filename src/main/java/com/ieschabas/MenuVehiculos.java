@@ -53,7 +53,7 @@ public class MenuVehiculos {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         int opcion;
 
@@ -73,5 +73,7 @@ public class MenuVehiculos {
 
         System.out.println("Gracias por usar la aplicación. ¡Hasta luego!");
         scanner.close(); // Cierra el Scanner para liberar recursos
-    }
+
+
+    }*/
 }

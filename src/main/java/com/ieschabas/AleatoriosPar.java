@@ -57,7 +57,7 @@ public class AleatoriosPar {
      *
      * @param args Argumentos de línea de comandos (no utilizados).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
         int limite;
@@ -84,5 +84,7 @@ public class AleatoriosPar {
         System.out.println("Número par aleatorio generado: " + parAleatorio);
 
         scanner.close();
-    }
+
+
+    }*/
 }

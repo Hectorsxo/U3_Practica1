@@ -77,7 +77,7 @@ public class MayoresAleatorios4 {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rng = new Random();
         int repeticiones;
@@ -109,7 +109,9 @@ public class MayoresAleatorios4 {
         }
 
         scanner.close(); // Cierra el Scanner
-    }
+
+
+    }*/
 }
 
 

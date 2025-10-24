@@ -46,7 +46,9 @@ public class NumerosImpares {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         System.out.println(productoDiezPrimerosImpares()); // Resultado esperado: 654729075
-    }
+
+
+    }*/
 }

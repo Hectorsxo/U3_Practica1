@@ -71,12 +71,14 @@ public class JuegoAdivinar {
      *
      * @param args Argumentos de línea de comandos (no se usan).
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int numeroSecreto = 27; // Número que el jugador debe adivinar
         int[] misIntentos = {10, 50, 20, 30, 27}; // Intentos de ejemplo
 
         int resultado = jugar(numeroSecreto, misIntentos);
 
         System.out.println("Número de intentos hasta acertar: " + resultado);
-    }
+
+
+    }*/
 }
