@@ -69,9 +69,6 @@ public class JuegoAdivinar {
     }
 
 
-        return -1; // No se acertó el número
-    }
-
     /**
      * Método principal que ejecuta una partida de prueba del juego de adivinanza.
      * Define un número secreto y una lista de intentos, y muestra los resultados en consola.
