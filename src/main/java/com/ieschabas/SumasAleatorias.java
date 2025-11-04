@@ -25,8 +25,12 @@ public class SumasAleatorias {
      *
      * @param rng Objeto de tipo Random utilizado para generar los números aleatorios.
      * @return La suma de dos números aleatorios entre 0 y 1000.
+     * @throws IllegalArgumentException si rng es null.
      */
     public int sumaDosAleatorios(Random rng) {
+        if (rng == null) {
+            throw new IllegalArgumentException("El generador Random no puede ser nulo.");
+        }
         int a = rng.nextInt(1001); // Primer número aleatorio
         int b = rng.nextInt(1001); // Segundo número aleatorio
         return a + b;              // Devuelve la suma
@@ -38,8 +42,16 @@ public class SumasAleatorias {
      * @param repeticiones Número de sumas que se deben generar.
      * @param rng Objeto Random para generar los números aleatorios.
      * @return Un array con las sumas generadas.
+     * @throws IllegalArgumentException si rng es null o si repeticiones es negativo.
      */
     public int[] generarSumas(int repeticiones, Random rng) {
+        if (rng == null) {
+            throw new IllegalArgumentException("El generador Random no puede ser nulo.");
+        }
+        if (repeticiones < 0) {
+            throw new IllegalArgumentException("El número de repeticiones no puede ser negativo.");
+        }
+
         int[] resultados = new int[repeticiones];
 
         // Genera tantas sumas como indique el usuario
@@ -49,6 +61,8 @@ public class SumasAleatorias {
 
         return resultados;
     }
+
+}
 
     /**
      * Método principal. Pide al usuario cuántas sumas desea generar,
@@ -92,4 +106,4 @@ public class SumasAleatorias {
 
         scanner.close();
     }*/
-}
+
