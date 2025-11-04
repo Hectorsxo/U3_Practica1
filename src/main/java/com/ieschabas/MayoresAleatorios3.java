@@ -48,8 +48,16 @@ public class MayoresAleatorios3 {
      * @param repeticiones Número de grupos (tríos) a generar.
      * @param rng Objeto Random usado para generar los números aleatorios.
      * @return Un array con los valores máximos de cada trío.
+     * @throws IllegalArgumentException si rng es null o si repeticiones es negativo.
      */
     public int[] generarMaximos3(int repeticiones, Random rng) {
+        if (rng == null) {
+            throw new IllegalArgumentException("El generador Random no puede ser nulo.");
+        }
+        if (repeticiones < 0) {
+            throw new IllegalArgumentException("El número de repeticiones no puede ser negativo.");
+        }
+
         int[] resultados = new int[repeticiones];
 
         // Genera los tríos y calcula el máximo de cada uno
@@ -63,6 +71,7 @@ public class MayoresAleatorios3 {
 
         return resultados;
     }
+}
 
     /**
      * Método principal. Pide al usuario el número de repeticiones,
@@ -105,4 +114,4 @@ public class MayoresAleatorios3 {
 
         scanner.close(); // Cierra el Scanner
     }*/
-}
+
