@@ -22,8 +22,7 @@ public class MenuVehiculos {
     /**
      * Constructor por defecto de MenuVehiculos.
      */
-    public MenuVehiculos(){
-
+    public MenuVehiculos() {
     }
 
     /**
@@ -35,17 +34,18 @@ public class MenuVehiculos {
     public static String seleccionarOpcion(int opcion) {
         switch (opcion) {
             case 1:
-                return "Opción seleccionada - Mantenimiento de clientes";
+                return "Mantenimiento de clientes";
             case 2:
-                return "Opción seleccionada - Introducción de facturas";
+                return "Introducción de facturas";
             case 3:
-                return "Opción seleccionada - Listado de facturas";
+                return "Listado de facturas";
             case 4:
-                return "Opción seleccionada - Finalizar";
+                return "Finalizar";
             default:
-                return "La opción no existe. Vuelve a intentarlo.";
+                return "La opción no existe. Vuelve a intentarlo"; // Sin punto final
         }
     }
+}
 
     /**
      * Método principal. Muestra el menú por consola, pide una opción al usuario
@@ -76,4 +76,4 @@ public class MenuVehiculos {
 
 
     }*/
-}
+

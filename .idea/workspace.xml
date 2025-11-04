@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="Actualizada la clase JuegoAdivinar (otra vez)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="Actualizada la clase SumasAleatorias" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +67,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.JuegoAdivinarTest">
+  <component name="RunManager" selected="JUnit.MenuVehiculosTest">
     <configuration name="JuegoAdivinarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica1_UD3" />
       <extension name="coverage">
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JuegoAdivinarTest" />
-        <item itemvalue="JUnit.SumasAleatoriasTest" />
-        <item itemvalue="JUnit.NumerosImparesTest" />
         <item itemvalue="JUnit.MenuVehiculosTest" />
+        <item itemvalue="JUnit.NumerosImparesTest" />
+        <item itemvalue="JUnit.SumasAleatoriasTest" />
         <item itemvalue="JUnit.MayoresTest" />
+        <item itemvalue="JUnit.JuegoAdivinarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762288561799</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actualizada la clase SumasAleatorias">
+      <option name="closed" value="true" />
+      <created>1762289225308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762289225308</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +238,7 @@
     <MESSAGE value="maven.yml y tests" />
     <MESSAGE value="Actualizada la clase JuegoAdivinar" />
     <MESSAGE value="Actualizada la clase JuegoAdivinar (otra vez)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizada la clase JuegoAdivinar (otra vez)" />
+    <MESSAGE value="Actualizada la clase SumasAleatorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizada la clase SumasAleatorias" />
   </component>
 </project>
