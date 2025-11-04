@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="final commit (yaaaa)">
-      <change afterPath="$PROJECT_DIR$/github/workflow/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="maven.yml y tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,24 +38,122 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AleatoriosPar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Circunferencia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JuegoAdivinar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mayores.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MayoresAleatorios3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MayoresAleatorios4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumerosImpares.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumasAleatorias.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/heccrebui/IdeaProjects/P1U3_HECTOR_CRESPO_BUIGUES/Practica1_UD3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AleatoriosPar.executor": "Run",
+    "Application.Circunferencia.executor": "Run",
+    "Application.JuegoAdivinar.executor": "Run",
+    "Application.Mayores.executor": "Run",
+    "Application.MayoresAleatorios3.executor": "Run",
+    "Application.MayoresAleatorios4.executor": "Run",
+    "Application.NumerosImpares.executor": "Run",
+    "Application.SumasAleatorias.executor": "Run",
+    "JUnit.AleatoriosParTest.executor": "Run",
+    "JUnit.CircunferenciaTest.executor": "Run",
+    "JUnit.JuegoAdivinarTest.executor": "Run",
+    "JUnit.MayoresAleatorios3Test.executor": "Run",
+    "JUnit.MayoresAleatorios4Test.executor": "Run",
+    "JUnit.MayoresTest.executor": "Run",
+    "JUnit.MenuVehiculosTest.executor": "Run",
+    "JUnit.NumerosImparesTest.executor": "Run",
+    "JUnit.SumasAleatoriasTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/heccrebui/IdeaProjects/P1U3_HECTOR_CRESPO_BUIGUES/Practica1_UD3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.JuegoAdivinarTest">
+    <configuration name="JuegoAdivinarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_UD3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ieschabas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ieschabas" />
+      <option name="MAIN_CLASS_NAME" value="com.ieschabas.JuegoAdivinarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayoresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_UD3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ieschabas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ieschabas" />
+      <option name="MAIN_CLASS_NAME" value="com.ieschabas.MayoresTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuVehiculosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_UD3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ieschabas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ieschabas" />
+      <option name="MAIN_CLASS_NAME" value="com.ieschabas.MenuVehiculosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumerosImparesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_UD3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ieschabas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ieschabas" />
+      <option name="MAIN_CLASS_NAME" value="com.ieschabas.NumerosImparesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumasAleatoriasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_UD3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ieschabas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ieschabas" />
+      <option name="MAIN_CLASS_NAME" value="com.ieschabas.SumasAleatoriasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JuegoAdivinarTest" />
+        <item itemvalue="JUnit.SumasAleatoriasTest" />
+        <item itemvalue="JUnit.NumerosImparesTest" />
+        <item itemvalue="JUnit.MenuVehiculosTest" />
+        <item itemvalue="JUnit.MayoresTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="" />
@@ -90,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761316238370</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven.yml y tests">
+      <option name="closed" value="true" />
+      <created>1762285911804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762285911804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +212,7 @@
     <MESSAGE value="final commit (1)" />
     <MESSAGE value="final commit (ahora si por fín)" />
     <MESSAGE value="final commit (yaaaa)" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit (yaaaa)" />
+    <MESSAGE value="maven.yml y tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven.yml y tests" />
   </component>
 </project>

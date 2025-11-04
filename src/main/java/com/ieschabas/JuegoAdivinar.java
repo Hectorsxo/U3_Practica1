@@ -47,9 +47,14 @@ public class JuegoAdivinar {
      * @return Número de intentos necesarios para acertar, o -1 si no se acierta.
      */
     public int jugar(int secreto, int[] intentos) {
+        if (intentos == null) {
+            System.out.println("Error: el arreglo de intentos es nulo.");
+            return -1; // o lanza una excepción controlada si prefieres
+        }
+
         for (int i = 0; i < intentos.length; i++) {
             int intento = intentos[i];
-            int numIntento = i + 1; // Contador de intentos (comienza en 1)
+            int numIntento = i + 1;
 
             if (intento == secreto) {
                 System.out.println("¡Has acertado!");
@@ -60,6 +65,9 @@ public class JuegoAdivinar {
                 System.out.println("El número es menor. Has realizado " + numIntento + " intentos.");
             }
         }
+        return -1; // si no acierta en ningún intento
+    }
+
 
         return -1; // No se acertó el número
     }
