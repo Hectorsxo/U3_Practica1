@@ -4,95 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="final commit (ahora si por fín)">
+    <list default="true" id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="final commit (yaaaa)">
+      <change afterPath="$PROJECT_DIR$/github/workflow/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRACTICA 1 UD3 enlace github.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/AleatoriosPar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Circunferencia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/JuegoAdivinar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/Mayores.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MayoresAleatorios4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/MenuVehiculos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/NumerosImpares.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/SumasAleatorias.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/com/ieschabas/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/dejavufonts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/jquery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/legal/jqueryUI.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-Oblique.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans-Oblique.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSans.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSansMono.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/DejaVuLGCSerif.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/fonts/dejavu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/resource-files/x.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/jquery-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/search-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/script-files/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/tag-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/AleatoriosPar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Circunferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/JuegoAdivinar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/Mayores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/MayoresAleatorios4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/NumerosImpares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ieschabas/SumasAleatorias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,28 +33,31 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="34Th7GXbEmBD90ebFJEhfifSWdH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AleatoriosPar.executor": "Run",
-    "Application.Circunferencia.executor": "Run",
-    "Application.JuegoAdivinar.executor": "Run",
-    "Application.Mayores.executor": "Run",
-    "Application.MayoresAleatorios3.executor": "Run",
-    "Application.MayoresAleatorios4.executor": "Run",
-    "Application.NumerosImpares.executor": "Run",
-    "Application.SumasAleatorias.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/heccrebui/IdeaProjects/P1U3_HECTOR_CRESPO_BUIGUES/Practica1_UD3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AleatoriosPar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Circunferencia.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JuegoAdivinar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mayores.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MayoresAleatorios3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MayoresAleatorios4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumerosImpares.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumasAleatorias.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/heccrebui/IdeaProjects/P1U3_HECTOR_CRESPO_BUIGUES/Practica1_UD3&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73b82b27-e6ad-4133-b5fe-2800c8ca293b" name="Changes" comment="" />
@@ -164,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761314870357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final commit (yaaaa)">
+      <option name="closed" value="true" />
+      <created>1761316238370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761316238370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final commit (1)" />
     <MESSAGE value="final commit (ahora si por fín)" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit (ahora si por fín)" />
+    <MESSAGE value="final commit (yaaaa)" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit (yaaaa)" />
   </component>
 </project>
